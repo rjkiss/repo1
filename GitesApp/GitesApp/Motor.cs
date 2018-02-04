@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace GitesApp
 {
-    public class Auto
+    public class Motor
     {
         public void Drive()
         {
-            Console.WriteLine("Az autó gurul...");
+            Console.WriteLine("A motor robog...");
         }
     }
 }

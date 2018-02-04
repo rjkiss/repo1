@@ -10,7 +10,10 @@ namespace GitesApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Auto auto = new Auto();
+            Motor motor = new Motor();
+            auto.Drive();
+            motor.Drive();
 
             Console.ReadLine();
         }
