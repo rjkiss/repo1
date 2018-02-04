@@ -15,7 +15,6 @@ namespace GitesApp
             auto.Drive();
             motor.Drive();
 
-
             Console.ReadLine();
         }
     }
