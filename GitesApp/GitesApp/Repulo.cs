@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace GitesApp
 {
-    public class Bicikli
+    public class Repulo
     {
         public void Drive()
         {
-            Console.WriteLine("A bicikli teker...");
+            Console.WriteLine("A repülő száll...");
         }
     }
 }

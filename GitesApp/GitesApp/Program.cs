@@ -12,8 +12,10 @@ namespace GitesApp
         {
             Auto auto = new Auto();
             Motor motor = new Motor();
+            Repulo repulo = new Repulo();
             auto.Drive();
             motor.Drive();
+            repulo.Drive();
 
             Console.ReadLine();
         }
